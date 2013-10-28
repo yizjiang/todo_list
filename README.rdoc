@@ -1,3 +1,4 @@
 1. Clone the repository.
 2. Bundle Install.
 3. Run rails s to start server.
+4. Go to: http://localhost:3000/todos
