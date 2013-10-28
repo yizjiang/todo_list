@@ -1,0 +1,15 @@
+:ruby
+  app_url = "/javascripts/apps/todo/"
+#parameter-management-config{:data => {all_todos: @todo_list.to_json}}
+
+#parameter_management
+
+%link{ :href => "/javascripts/apps/todo/resources/styles.css", :rel => "stylesheet", :type =>"text/css" }
+
+:javascript
+  $(document).ready(function(){
+    require.config({
+      baseUrl: "#{app_url}",
+    });
+    require(["main"]);
+  });
