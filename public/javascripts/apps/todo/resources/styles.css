@@ -14,7 +14,7 @@
   margin:0 10%;
   font-family: helvetica,arial,sans-serif;
   font-size: 1em;
-  background: url(../../../../images/bg.png);
+  background: url('/images/bg.png');
   color: #333;
   padding: 50px;
   -moz-border-radius: 15px 15px 15px 15px;
